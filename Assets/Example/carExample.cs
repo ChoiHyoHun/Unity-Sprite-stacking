@@ -26,7 +26,7 @@ public class carExample : MonoBehaviour
         if (y != 0)
             disp.rotation += new Vector3(0, 0, -x * 4);
             
-        GameObject body = transform.GetChild(transform.childCount-1).Find("part0").gameObject;
+        GameObject body = transform.GetChild(transform.childCount-1).Find("AnimatedPart_0").gameObject;
         transform.GetChild(0).transform.rotation = body.transform.rotation;
         
         transform.position += body.transform.right/maxSpeed*y;
