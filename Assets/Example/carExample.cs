@@ -6,7 +6,7 @@ public class carExample : MonoBehaviour
 {
     Rigidbody2D rb2d;
     displayObject disp;
-    float maxSpeed = 10;
+    float maxSpeed = 10f;
     // Start is called before the first frame update
     void Start()
     {
